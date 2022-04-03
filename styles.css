@@ -1,0 +1,17 @@
+.block_qmulsearch .qmulsearchresults {
+    max-height: 15rem;
+    overflow: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: ghostwhite;
+    margin: 5px;
+    padding: 5px;
+    border-color: #0ac8e4;
+    border-width: 5px;
+}
+
+.block_qmulsearch #blockcoursesearch {
+    width: 13rem;
+    margin-bottom: 20px;
+}
