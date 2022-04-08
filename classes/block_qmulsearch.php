@@ -8,8 +8,7 @@ use dml_exception;
 
 defined('MOODLE_INTERNAL') || die();
 global $CFG;
-$dir = $CFG->wwwroot . str_replace($CFG->dirroot, '', __DIR__);
-require_once($dir . '/../locallib.php');
+require_once( dirname(__FILE__) . '/../locallib.php');
 
 class block_qmulsearch {
     /**
